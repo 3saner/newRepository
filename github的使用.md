@@ -77,3 +77,12 @@ ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCeaETgaAj3c8upYdjrDkh4TJF3hHN675Ll+wks82t2
 
 5-7.合并开发的分支feature-login。 git merge feature-login
 
+
+
+6.注意事项：如果发生了冲突
+
+上来第一件事情就是：把本地的dev删掉。冲突修复完之后，再从master上切换一个分支。
+
+7.删除本地分支：
+
+git branch -d dev
